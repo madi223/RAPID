@@ -1,6 +1,6 @@
 # RAPID
 RAPID (RAN-Aware Proxy-based flow control for HIgh througput and low Delay eMBB) is a TCP proxy that aims to mitigate self-inflicted bufferbloat and maximize link utilization in today and future cellular networks.
-![Optional Text](../master/ns3-testbed-git.png)
+<img src="ns3-testbed-git.png" alt="My cool logo"/>
 # Step 1 : Building OAI and FlexRAN infrastructure
 
 ## 1.1 Launch nodes images on r2lab
