@@ -1,0 +1,24 @@
+import pandas as pd
+import numpy as np
+import argparse
+import time
+from datetime import datetime
+import sys
+import os
+import csv
+from scipy.stats import t
+from scipy import sqrt
+from statistics import variance, mean 
+######## ARGS definition ######
+parser = argparse.ArgumentParser()
+parser.add_argument("--data","-a",help="absolute path of dataset.csv",required=True)
+parser.add_argument("--output","-b",help="absolute path of second dataset.csv",required=True)
+parser.add_argument("--id","-i",help="absolute path of second dataset.csv",required=True)
+parser.add_argument("--rtt","-r",help="absolute path of second dataset.csv",required=True)
+args = parser.parse_args()
+##############################
+Data = args.data
+dataset = pd.read_csv(Data)
+dataset.columns = ['time','cwnd','rtt','throughput','ranBw','tbs','inflight','state','dst','src']
+dataset2 = pd.read_csv(args.output)
+dataset2.columns = ['time','cwnd','rtt','throughput','ranBw','tbs','inflight','state','dst','src']

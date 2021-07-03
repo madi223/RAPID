@@ -1,0 +1,1322 @@
+[
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/des-metrics.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/des-metrics.cc.1.o", 
+    "file": "../src/core/model/des-metrics.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/radiotap-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/utils/radiotap-header.cc.1.o", 
+    "file": "../src/network/utils/radiotap-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mpi/model/remote-channel-bundle-manager.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mpi/model/remote-channel-bundle-manager.cc.1.o", 
+    "file": "../src/mpi/model/remote-channel-bundle-manager.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-packet-probe.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv6-packet-probe.cc.1.o", 
+    "file": "../src/internet/model/ipv6-packet-probe.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/tcp-p2p-2fl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/tcp-p2p-2fl.cc.21.o", 
+    "file": "../scratch/tcp-p2p-2fl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-highspeed.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-highspeed.cc.1.o", 
+    "file": "../src/internet/model/tcp-highspeed.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/packet-socket-client.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/utils/packet-socket-client.cc.1.o", 
+    "file": "../src/network/utils/packet-socket-client.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-phy-tag.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-phy-tag.cc.1.o", 
+    "file": "../src/lte/model/lte-phy-tag.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/epc-x2-sap.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/epc-x2-sap.cc.1.o", 
+    "file": "../src/lte/model/epc-x2-sap.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/epc-ue-nas.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/epc-ue-nas.cc.1.o", 
+    "file": "../src/lte/model/epc-ue-nas.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/subdir/scratch-simulator-subdir.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/subdir/scratch-simulator-subdir.cc.16.o", 
+    "file": "../scratch/subdir/scratch-simulator-subdir.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/lr-wpan/model/lr-wpan-error-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lr-wpan/model/lr-wpan-error-model.cc.1.o", 
+    "file": "../src/lr-wpan/model/lr-wpan-error-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-enb-mac.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-enb-mac.cc.1.o", 
+    "file": "../src/lte/model/lte-enb-mac.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/helper/ipv6-static-routing-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/helper/ipv6-static-routing-helper.cc.1.o", 
+    "file": "../src/internet/helper/ipv6-static-routing-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wave/model/vendor-specific-action.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wave/model/vendor-specific-action.cc.1.o", 
+    "file": "../src/wave/model/vendor-specific-action.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/mac-tx-middle.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/mac-tx-middle.cc.1.o", 
+    "file": "../src/wifi/model/mac-tx-middle.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/hwmp-tag.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mesh/model/dot11s/hwmp-tag.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/hwmp-tag.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-rlc-sap.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-rlc-sap.cc.1.o", 
+    "file": "../src/lte/model/lte-rlc-sap.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-routing-protocol.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4-routing-protocol.cc.1.o", 
+    "file": "../src/internet/model/ipv4-routing-protocol.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/lr-wpan/helper/lr-wpan-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lr-wpan/helper/lr-wpan-helper.cc.1.o", 
+    "file": "../src/lr-wpan/helper/lr-wpan-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -Isrc/dsr -I../src/dsr -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/dsr/model/dsr-routing.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/dsr/model/dsr-routing.cc.1.o", 
+    "file": "../src/dsr/model/dsr-routing.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/spectrum-value.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/spectrum/model/spectrum-value.cc.1.o", 
+    "file": "../src/spectrum/model/spectrum-value.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/callback.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/callback.cc.1.o", 
+    "file": "../src/core/model/callback.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/attribute.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/attribute.cc.1.o", 
+    "file": "../src/core/model/attribute.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/config-store/model/display-functions.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/config-store/model/display-functions.cc.1.o", 
+    "file": "../src/config-store/model/display-functions.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/queue-item.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/utils/queue-item.cc.1.o", 
+    "file": "../src/network/utils/queue-item.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/standard_5g.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/standard_5g.cc.8.o", 
+    "file": "../scratch/standard_5g.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-header-rc.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/uan/model/uan-header-rc.cc.1.o", 
+    "file": "../src/uan/model/uan-header-rc.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/fdbet-ff-mac-scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/fdbet-ff-mac-scheduler.cc.1.o", 
+    "file": "../src/lte/model/fdbet-ff-mac-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/unix-fd-reader.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/unix-fd-reader.cc.1.o", 
+    "file": "../src/core/model/unix-fd-reader.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/config-store/model/model-typeid-creator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/config-store/model/model-typeid-creator.cc.1.o", 
+    "file": "../src/config-store/model/model-typeid-creator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/helper/mac-tx-stats-calculator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/helper/mac-tx-stats-calculator.cc.1.o", 
+    "file": "../src/lte/helper/mac-tx-stats-calculator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/spectrum-signal-parameters.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/spectrum/model/spectrum-signal-parameters.cc.1.o", 
+    "file": "../src/spectrum/model/spectrum-signal-parameters.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/wifi-utils.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/wifi-utils.cc.1.o", 
+    "file": "../src/wifi/model/wifi-utils.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/bandwidth-manager.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wimax/model/bandwidth-manager.cc.1.o", 
+    "file": "../src/wimax/model/bandwidth-manager.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-packet-info-tag.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4-packet-info-tag.cc.1.o", 
+    "file": "../src/internet/model/ipv4-packet-info-tag.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-raw-socket-factory-impl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv6-raw-socket-factory-impl.cc.1.o", 
+    "file": "../src/internet/model/ipv6-raw-socket-factory-impl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/unix-system-mutex.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/unix-system-mutex.cc.1.o", 
+    "file": "../src/core/model/unix-system-mutex.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/antenna-array-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/antenna-array-model.cc.1.o", 
+    "file": "../src/mmwave/model/antenna-array-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-fr-soft-algorithm.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-fr-soft-algorithm.cc.1.o", 
+    "file": "../src/lte/model/lte-fr-soft-algorithm.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/helper/emu-epc-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/helper/emu-epc-helper.cc.1.o", 
+    "file": "../src/lte/helper/emu-epc-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/global-value.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/global-value.cc.1.o", 
+    "file": "../src/core/model/global-value.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/fatal-impl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/fatal-impl.cc.1.o", 
+    "file": "../src/core/model/fatal-impl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/epc-s1ap-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/epc-s1ap-header.cc.1.o", 
+    "file": "../src/lte/model/epc-s1ap-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/object-factory.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/object-factory.cc.1.o", 
+    "file": "../src/core/model/object-factory.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/applications/model/udp-echo-server.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/applications/model/udp-echo-server.cc.1.o", 
+    "file": "../src/applications/model/udp-echo-server.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/spectrum-analyzer.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/spectrum/model/spectrum-analyzer.cc.1.o", 
+    "file": "../src/spectrum/model/spectrum-analyzer.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-anr.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-anr.cc.1.o", 
+    "file": "../src/lte/model/lte-anr.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/config-store/model/model-node-creator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/config-store/model/model-node-creator.cc.1.o", 
+    "file": "../src/config-store/model/model-node-creator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/epc-gtpu-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/epc-gtpu-header.cc.1.o", 
+    "file": "../src/lte/model/epc-gtpu-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/vector.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/vector.cc.1.o", 
+    "file": "../src/core/model/vector.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/string.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/string.cc.1.o", 
+    "file": "../src/core/model/string.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-option.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv6-option.cc.1.o", 
+    "file": "../src/internet/model/ipv6-option.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/ssid.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/ssid.cc.1.o", 
+    "file": "../src/wifi/model/ssid.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/applications/model/seq-ts-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/applications/model/seq-ts-header.cc.1.o", 
+    "file": "../src/applications/model/seq-ts-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/wifi-remote-station-manager.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/wifi-remote-station-manager.cc.1.o", 
+    "file": "../src/wifi/model/wifi-remote-station-manager.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet-apps/model/radvd-interface.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet-apps/model/radvd-interface.cc.1.o", 
+    "file": "../src/internet-apps/model/radvd-interface.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/hash-fnv.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/hash-fnv.cc.1.o", 
+    "file": "../src/core/model/hash-fnv.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/mmwave-amc.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/mmwave-amc.cc.1.o", 
+    "file": "../src/mmwave/model/mmwave-amc.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/mmwave-mi-error-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/mmwave-mi-error-model.cc.1.o", 
+    "file": "../src/mmwave/model/mmwave-mi-error-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -Isrc/dsr -I../src/dsr -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/dsr/model/dsr-passive-buff.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/dsr/model/dsr-passive-buff.cc.1.o", 
+    "file": "../src/dsr/model/dsr-passive-buff.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/flow-monitor/model/ipv6-flow-classifier.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/flow-monitor/model/ipv6-flow-classifier.cc.1.o", 
+    "file": "../src/flow-monitor/model/ipv6-flow-classifier.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/helper/internet-trace-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/helper/internet-trace-helper.cc.1.o", 
+    "file": "../src/internet/helper/internet-trace-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/tcp-wireless-2fl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/tcp-wireless-2fl.cc.19.o", 
+    "file": "../scratch/tcp-wireless-2fl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/config-store/model/gtk-config-store.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/config-store/model/gtk-config-store.cc.1.o", 
+    "file": "../src/config-store/model/gtk-config-store.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-l3-protocol.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4-l3-protocol.cc.1.o", 
+    "file": "../src/internet/model/ipv4-l3-protocol.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/simple-net-device.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/utils/simple-net-device.cc.1.o", 
+    "file": "../src/network/utils/simple-net-device.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/antenna/model/cosine-antenna-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/antenna/model/cosine-antenna-model.cc.1.o", 
+    "file": "../src/antenna/model/cosine-antenna-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/epc-sgw-pgw-application.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/epc-sgw-pgw-application.cc.1.o", 
+    "file": "../src/lte/model/epc-sgw-pgw-application.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/ie-dot11s-rann.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mesh/model/dot11s/ie-dot11s-rann.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/ie-dot11s-rann.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/helper/internet-stack-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/helper/internet-stack-helper.cc.1.o", 
+    "file": "../src/internet/helper/internet-stack-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-ffr-distributed-algorithm.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-ffr-distributed-algorithm.cc.1.o", 
+    "file": "../src/lte/model/lte-ffr-distributed-algorithm.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/default-simulator-impl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/default-simulator-impl.cc.1.o", 
+    "file": "../src/core/model/default-simulator-impl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/peer-management-protocol.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mesh/model/dot11s/peer-management-protocol.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/peer-management-protocol.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/capability-information.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/capability-information.cc.1.o", 
+    "file": "../src/wifi/model/capability-information.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 ../src/fd-net-device/helper/raw-sock-creator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/fd-net-device/helper/raw-sock-creator.cc.5.o", 
+    "file": "../src/fd-net-device/helper/raw-sock-creator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/mmwave-tcp-analysis.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/mmwave-tcp-analysis.cc.20.o", 
+    "file": "../scratch/mmwave-tcp-analysis.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-raw-socket-impl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv6-raw-socket-impl.cc.1.o", 
+    "file": "../src/internet/model/ipv6-raw-socket-impl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/wifi-spectrum-value-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/spectrum/model/wifi-spectrum-value-helper.cc.1.o", 
+    "file": "../src/spectrum/model/wifi-spectrum-value-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 '-DTAP_CREATOR=\"ns3-dev-tap-creator-optimized\"' -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/tap-bridge/model/tap-bridge.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/tap-bridge/model/tap-bridge.cc.1.o", 
+    "file": "../src/tap-bridge/model/tap-bridge.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-option-ts.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-option-ts.cc.1.o", 
+    "file": "../src/internet/model/tcp-option-ts.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-route.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv6-route.cc.1.o", 
+    "file": "../src/internet/model/ipv6-route.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/dynamic-queue-limits.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/utils/dynamic-queue-limits.cc.1.o", 
+    "file": "../src/network/utils/dynamic-queue-limits.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-scalable.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-scalable.cc.1.o", 
+    "file": "../src/internet/model/tcp-scalable.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/traffic-control/model/tbf-queue-disc.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/traffic-control/model/tbf-queue-disc.cc.1.o", 
+    "file": "../src/traffic-control/model/tbf-queue-disc.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-end-point-demux.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4-end-point-demux.cc.1.o", 
+    "file": "../src/internet/model/ipv4-end-point-demux.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/mmwave-rrc-protocol-ideal.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/mmwave-rrc-protocol-ideal.cc.1.o", 
+    "file": "../src/mmwave/model/mmwave-rrc-protocol-ideal.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/minstrel-wifi-manager.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/minstrel-wifi-manager.cc.1.o", 
+    "file": "../src/wifi/model/minstrel-wifi-manager.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/helper/ipv4-routing-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/helper/ipv4-routing-helper.cc.1.o", 
+    "file": "../src/internet/helper/ipv4-routing-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/command-line.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/command-line.cc.1.o", 
+    "file": "../src/core/model/command-line.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-raw-socket-impl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4-raw-socket-impl.cc.1.o", 
+    "file": "../src/internet/model/ipv4-raw-socket-impl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/applications/model/packet-loss-counter.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/applications/model/packet-loss-counter.cc.1.o", 
+    "file": "../src/applications/model/packet-loss-counter.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-socket-base.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-socket-base.cc.1.o", 
+    "file": "../src/internet/model/tcp-socket-base.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/mesh-point-device.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mesh/model/mesh-point-device.cc.1.o", 
+    "file": "../src/mesh/model/mesh-point-device.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/model/channel-list.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/model/channel-list.cc.1.o", 
+    "file": "../src/network/model/channel-list.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/status-code.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/status-code.cc.1.o", 
+    "file": "../src/wifi/model/status-code.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/simulator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/simulator.cc.1.o", 
+    "file": "../src/core/model/simulator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/stats/model/uinteger-32-probe.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/stats/model/uinteger-32-probe.cc.1.o", 
+    "file": "../src/stats/model/uinteger-32-probe.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/pf-ff-mac-scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/pf-ff-mac-scheduler.cc.1.o", 
+    "file": "../src/lte/model/pf-ff-mac-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/mmwave-tcp-indoor-ml.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/mmwave-tcp-indoor-ml.cc.11.o", 
+    "file": "../scratch/mmwave-tcp-indoor-ml.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet-apps/model/radvd-prefix.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet-apps/model/radvd-prefix.cc.1.o", 
+    "file": "../src/internet-apps/model/radvd-prefix.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-enb-cmac-sap.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-enb-cmac-sap.cc.1.o", 
+    "file": "../src/lte/model/lte-enb-cmac-sap.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/mmwave-3gpp-propagation-loss-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/mmwave-3gpp-propagation-loss-model.cc.1.o", 
+    "file": "../src/mmwave/model/mmwave-3gpp-propagation-loss-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/mmwave-phy.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/mmwave-phy.cc.1.o", 
+    "file": "../src/mmwave/model/mmwave-phy.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-rx-buffer.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-rx-buffer.cc.1.o", 
+    "file": "../src/internet/model/tcp-rx-buffer.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-ffr-enhanced-algorithm.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-ffr-enhanced-algorithm.cc.1.o", 
+    "file": "../src/lte/model/lte-ffr-enhanced-algorithm.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-rrc-protocol-ideal.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-rrc-protocol-ideal.cc.1.o", 
+    "file": "../src/lte/model/lte-rrc-protocol-ideal.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/ipv4-address.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/utils/ipv4-address.cc.1.o", 
+    "file": "../src/network/utils/ipv4-address.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/mmwave-tcp-indoor.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/mmwave-tcp-indoor.cc.10.o", 
+    "file": "../scratch/mmwave-tcp-indoor.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-raw-socket-factory.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4-raw-socket-factory.cc.1.o", 
+    "file": "../src/internet/model/ipv4-raw-socket-factory.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-routing-protocol.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv6-routing-protocol.cc.1.o", 
+    "file": "../src/internet/model/ipv6-routing-protocol.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -Isrc/olsr -I../src/olsr -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/olsr/model/olsr-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/olsr/model/olsr-header.cc.1.o", 
+    "file": "../src/olsr/model/olsr-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet-apps/model/dhcp-client.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet-apps/model/dhcp-client.cc.1.o", 
+    "file": "../src/internet-apps/model/dhcp-client.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/pending-data.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/pending-data.cc.1.o", 
+    "file": "../src/internet/model/pending-data.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-option.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-option.cc.1.o", 
+    "file": "../src/internet/model/tcp-option.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-prop-model-ideal.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/uan/model/uan-prop-model-ideal.cc.1.o", 
+    "file": "../src/uan/model/uan-prop-model-ideal.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-route.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4-route.cc.1.o", 
+    "file": "../src/internet/model/ipv4-route.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/flow-monitor/model/ipv4-flow-probe.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/flow-monitor/model/ipv4-flow-probe.cc.1.o", 
+    "file": "../src/flow-monitor/model/ipv4-flow-probe.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -Isrc/dsr -I../src/dsr -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/dsr/model/dsr-option-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/dsr/model/dsr-option-header.cc.1.o", 
+    "file": "../src/dsr/model/dsr-option-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ndisc-cache.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ndisc-cache.cc.1.o", 
+    "file": "../src/internet/model/ndisc-cache.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/connection-manager.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wimax/model/connection-manager.cc.1.o", 
+    "file": "../src/wimax/model/connection-manager.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/applications/model/udp-server.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/applications/model/udp-server.cc.1.o", 
+    "file": "../src/applications/model/udp-server.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/tcp-p2p.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/tcp-p2p.cc.3.o", 
+    "file": "../scratch/tcp-p2p.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 ../src/tap-bridge/model/tap-creator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/tap-bridge/model/tap-creator.cc.4.o", 
+    "file": "../src/tap-bridge/model/tap-creator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/mmwave-harq-phy.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/mmwave-harq-phy.cc.1.o", 
+    "file": "../src/mmwave/model/mmwave-harq-phy.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/scratch-simulator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/scratch-simulator.cc.2.o", 
+    "file": "../scratch/scratch-simulator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/buildings/model/itu-r-1238-propagation-loss-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/buildings/model/itu-r-1238-propagation-loss-model.cc.1.o", 
+    "file": "../src/buildings/model/itu-r-1238-propagation-loss-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/applications/helper/udp-echo-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/applications/helper/udp-echo-helper.cc.1.o", 
+    "file": "../src/applications/helper/udp-echo-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-routing-table-entry.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv6-routing-table-entry.cc.1.o", 
+    "file": "../src/internet/model/ipv6-routing-table-entry.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-pdcp-tag.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-pdcp-tag.cc.1.o", 
+    "file": "../src/lte/model/lte-pdcp-tag.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/mac48-address.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/utils/mac48-address.cc.1.o", 
+    "file": "../src/network/utils/mac48-address.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/tcp-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/tcp-model.cc.13.o", 
+    "file": "../scratch/tcp-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/tcp-parking-lot.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/tcp-parking-lot.cc.14.o", 
+    "file": "../scratch/tcp-parking-lot.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/helper/ipv4-interface-container.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/helper/ipv4-interface-container.cc.1.o", 
+    "file": "../src/internet/helper/ipv4-interface-container.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/antenna/model/parabolic-antenna-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/antenna/model/parabolic-antenna-model.cc.1.o", 
+    "file": "../src/antenna/model/parabolic-antenna-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-option-rfc793.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-option-rfc793.cc.1.o", 
+    "file": "../src/internet/model/tcp-option-rfc793.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-ue-power-control.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-ue-power-control.cc.1.o", 
+    "file": "../src/lte/model/lte-ue-power-control.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-mac-rc-gw.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/uan/model/uan-mac-rc-gw.cc.1.o", 
+    "file": "../src/uan/model/uan-mac-rc-gw.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -Isrc/propagation -I../src/propagation -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/propagation/model/itu-r-1411-los-propagation-loss-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/propagation/model/itu-r-1411-los-propagation-loss-model.cc.1.o", 
+    "file": "../src/propagation/model/itu-r-1411-los-propagation-loss-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-spectrum-signal-parameters.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-spectrum-signal-parameters.cc.1.o", 
+    "file": "../src/lte/model/lte-spectrum-signal-parameters.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/tcp-lte-mmwave.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/tcp-lte-mmwave.cc.15.o", 
+    "file": "../scratch/tcp-lte-mmwave.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -Isrc/dsr -I../src/dsr -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/dsr/model/dsr-options.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/dsr/model/dsr-options.cc.1.o", 
+    "file": "../src/dsr/model/dsr-options.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/helper/phy-rx-stats-calculator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/helper/phy-rx-stats-calculator.cc.1.o", 
+    "file": "../src/lte/helper/phy-rx-stats-calculator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-rrc-sap.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-rrc-sap.cc.1.o", 
+    "file": "../src/lte/model/lte-rrc-sap.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-ue-rrc.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-ue-rrc.cc.1.o", 
+    "file": "../src/lte/model/lte-ue-rrc.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/bridge/model/bridge-net-device.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/bridge/model/bridge-net-device.cc.1.o", 
+    "file": "../src/bridge/model/bridge-net-device.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/mesh-wifi-beacon.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mesh/model/mesh-wifi-beacon.cc.1.o", 
+    "file": "../src/mesh/model/mesh-wifi-beacon.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-ffr-soft-algorithm.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-ffr-soft-algorithm.cc.1.o", 
+    "file": "../src/lte/model/lte-ffr-soft-algorithm.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/applications/model/udp-client.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/applications/model/udp-client.cc.1.o", 
+    "file": "../src/applications/model/udp-client.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-spectrum-phy.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-spectrum-phy.cc.1.o", 
+    "file": "../src/lte/model/lte-spectrum-phy.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/ref-count-base.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/ref-count-base.cc.1.o", 
+    "file": "../src/core/model/ref-count-base.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/standard200Mhz_5g.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/standard200Mhz_5g.cc.9.o", 
+    "file": "../scratch/standard200Mhz_5g.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/stats/model/double-probe.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/stats/model/double-probe.cc.1.o", 
+    "file": "../src/stats/model/double-probe.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/helper/ripng-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/helper/ripng-helper.cc.1.o", 
+    "file": "../src/internet/helper/ripng-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/tdmt-ff-mac-scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/tdmt-ff-mac-scheduler.cc.1.o", 
+    "file": "../src/lte/model/tdmt-ff-mac-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4.cc.1.o", 
+    "file": "../src/internet/model/ipv4.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/a3-rsrp-handover-algorithm.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/a3-rsrp-handover-algorithm.cc.1.o", 
+    "file": "../src/lte/model/a3-rsrp-handover-algorithm.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/traffic-control/model/pfifo-fast-queue-disc.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/traffic-control/model/pfifo-fast-queue-disc.cc.1.o", 
+    "file": "../src/traffic-control/model/pfifo-fast-queue-disc.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 ../src/fd-net-device/helper/creator-utils.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/fd-net-device/helper/creator-utils.cc.5.o", 
+    "file": "../src/fd-net-device/helper/creator-utils.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/fdtbfq-ff-mac-scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/fdtbfq-ff-mac-scheduler.cc.1.o", 
+    "file": "../src/lte/model/fdtbfq-ff-mac-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/udp-l4-protocol.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/udp-l4-protocol.cc.1.o", 
+    "file": "../src/internet/model/udp-l4-protocol.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-ue-phy-sap.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-ue-phy-sap.cc.1.o", 
+    "file": "../src/lte/model/lte-ue-phy-sap.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wave/model/vsa-manager.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wave/model/vsa-manager.cc.1.o", 
+    "file": "../src/wave/model/vsa-manager.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/flow-monitor/model/flow-classifier.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/flow-monitor/model/flow-classifier.cc.1.o", 
+    "file": "../src/flow-monitor/model/flow-classifier.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/antenna/model/isotropic-antenna-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/antenna/model/isotropic-antenna-model.cc.1.o", 
+    "file": "../src/antenna/model/isotropic-antenna-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/unix-system-condition.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/unix-system-condition.cc.1.o", 
+    "file": "../src/core/model/unix-system-condition.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/spectrum-propagation-loss-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/spectrum/model/spectrum-propagation-loss-model.cc.1.o", 
+    "file": "../src/spectrum/model/spectrum-propagation-loss-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/object.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/object.cc.1.o", 
+    "file": "../src/core/model/object.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/icmpv4.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/icmpv4.cc.1.o", 
+    "file": "../src/internet/model/icmpv4.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/icmpv4-l4-protocol.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/icmpv4-l4-protocol.cc.1.o", 
+    "file": "../src/internet/model/icmpv4-l4-protocol.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/bs-uplink-scheduler-simple.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wimax/model/bs-uplink-scheduler-simple.cc.1.o", 
+    "file": "../src/wimax/model/bs-uplink-scheduler-simple.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/map-scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/map-scheduler.cc.1.o", 
+    "file": "../src/core/model/map-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/helper/mesh-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mesh/helper/mesh-helper.cc.1.o", 
+    "file": "../src/mesh/helper/mesh-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/epc-mme-application.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/epc-mme-application.cc.1.o", 
+    "file": "../src/lte/model/epc-mme-application.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-rrc-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-rrc-header.cc.1.o", 
+    "file": "../src/lte/model/lte-rrc-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-interface-address.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4-interface-address.cc.1.o", 
+    "file": "../src/internet/model/ipv4-interface-address.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/helper/retx-stats-calculator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/helper/retx-stats-calculator.cc.1.o", 
+    "file": "../src/lte/helper/retx-stats-calculator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/event-id.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/event-id.cc.1.o", 
+    "file": "../src/core/model/event-id.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/ff-mac-sched-sap.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/ff-mac-sched-sap.cc.1.o", 
+    "file": "../src/lte/model/ff-mac-sched-sap.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/ss-scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wimax/model/ss-scheduler.cc.1.o", 
+    "file": "../src/wimax/model/ss-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/webb_5g.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/webb_5g.cc.7.o", 
+    "file": "../scratch/webb_5g.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-list-routing.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv6-list-routing.cc.1.o", 
+    "file": "../src/internet/model/ipv6-list-routing.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/calendar-scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/calendar-scheduler.cc.1.o", 
+    "file": "../src/core/model/calendar-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mobility/model/position-allocator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mobility/model/position-allocator.cc.1.o", 
+    "file": "../src/mobility/model/position-allocator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mobility/model/box.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mobility/model/box.cc.1.o", 
+    "file": "../src/mobility/model/box.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/aarfcd-wifi-manager.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/aarfcd-wifi-manager.cc.1.o", 
+    "file": "../src/wifi/model/aarfcd-wifi-manager.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-amc.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-amc.cc.1.o", 
+    "file": "../src/lte/model/lte-amc.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/single-model-spectrum-channel.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/spectrum/model/single-model-spectrum-channel.cc.1.o", 
+    "file": "../src/spectrum/model/single-model-spectrum-channel.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/helper/delay-jitter-estimation.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/helper/delay-jitter-estimation.cc.1.o", 
+    "file": "../src/network/helper/delay-jitter-estimation.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/system-path.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/system-path.cc.1.o", 
+    "file": "../src/core/model/system-path.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/helper/mmwave-bearer-stats-connector.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/helper/mmwave-bearer-stats-connector.cc.1.o", 
+    "file": "../src/mmwave/helper/mmwave-bearer-stats-connector.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/mmwave-ue-mac.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/mmwave-ue-mac.cc.1.o", 
+    "file": "../src/mmwave/model/mmwave-ue-mac.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/config-store/model/file-config.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/config-store/model/file-config.cc.1.o", 
+    "file": "../src/config-store/model/file-config.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/rng-stream.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/rng-stream.cc.1.o", 
+    "file": "../src/core/model/rng-stream.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-phy.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/uan/model/uan-phy.cc.1.o", 
+    "file": "../src/uan/model/uan-phy.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/object-base.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/object-base.cc.1.o", 
+    "file": "../src/core/model/object-base.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-enb-phy.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-enb-phy.cc.1.o", 
+    "file": "../src/lte/model/lte-enb-phy.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-handover-algorithm.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-handover-algorithm.cc.1.o", 
+    "file": "../src/lte/model/lte-handover-algorithm.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/hwmp-rtable.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mesh/model/dot11s/hwmp-rtable.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/hwmp-rtable.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/antenna/model/antenna-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/antenna/model/antenna-model.cc.1.o", 
+    "file": "../src/antenna/model/antenna-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/tcp-p2p-3fl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/tcp-p2p-3fl.cc.17.o", 
+    "file": "../scratch/tcp-p2p-3fl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet-apps/model/ping6.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet-apps/model/ping6.cc.1.o", 
+    "file": "../src/internet-apps/model/ping6.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/energy/model/simple-device-energy-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/energy/model/simple-device-energy-model.cc.1.o", 
+    "file": "../src/energy/model/simple-device-energy-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/helper/mc-stats-calculator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/helper/mc-stats-calculator.cc.1.o", 
+    "file": "../src/mmwave/helper/mc-stats-calculator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/erp-information.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/erp-information.cc.1.o", 
+    "file": "../src/wifi/model/erp-information.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-ue-cmac-sap.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-ue-cmac-sap.cc.1.o", 
+    "file": "../src/lte/model/lte-ue-cmac-sap.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/ff-mac-scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/ff-mac-scheduler.cc.1.o", 
+    "file": "../src/lte/model/ff-mac-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/tcp-wireless-3fl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/tcp-wireless-3fl.cc.4.o", 
+    "file": "../scratch/tcp-wireless-3fl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/int64x64.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/int64x64.cc.1.o", 
+    "file": "../src/core/model/int64x64.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/buildings/model/oh-buildings-propagation-loss-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/buildings/model/oh-buildings-propagation-loss-model.cc.1.o", 
+    "file": "../src/buildings/model/oh-buildings-propagation-loss-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/buildings/model/building.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/buildings/model/building.cc.1.o", 
+    "file": "../src/buildings/model/building.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/lr-wpan/model/lr-wpan-spectrum-signal-parameters.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lr-wpan/model/lr-wpan-spectrum-signal-parameters.cc.1.o", 
+    "file": "../src/lr-wpan/model/lr-wpan-spectrum-signal-parameters.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/aarf-wifi-manager.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/aarf-wifi-manager.cc.1.o", 
+    "file": "../src/wifi/model/aarf-wifi-manager.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/mmwave-channel-matrix.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/mmwave-channel-matrix.cc.1.o", 
+    "file": "../src/mmwave/model/mmwave-channel-matrix.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/fdmt-ff-mac-scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/fdmt-ff-mac-scheduler.cc.1.o", 
+    "file": "../src/lte/model/fdmt-ff-mac-scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-header-common.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/uan/model/uan-header-common.cc.1.o", 
+    "file": "../src/uan/model/uan-header-common.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/wimax-mac-to-mac-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wimax/model/wimax-mac-to-mac-header.cc.1.o", 
+    "file": "../src/wimax/model/wimax-mac-to-mac-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/simulator-impl.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/simulator-impl.cc.1.o", 
+    "file": "../src/core/model/simulator-impl.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -Isrc/point-to-point-layout -I../src/point-to-point-layout -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/point-to-point-layout/model/point-to-point-star.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/point-to-point-layout/model/point-to-point-star.cc.1.o", 
+    "file": "../src/point-to-point-layout/model/point-to-point-star.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/helper/random-variable-stream-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/helper/random-variable-stream-helper.cc.1.o", 
+    "file": "../src/core/helper/random-variable-stream-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -Isrc/propagation -I../src/propagation -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/propagation/model/okumura-hata-propagation-loss-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/propagation/model/okumura-hata-propagation-loss-model.cc.1.o", 
+    "file": "../src/propagation/model/okumura-hata-propagation-loss-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 ../src/tap-bridge/model/tap-encode-decode.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/tap-bridge/model/tap-encode-decode.cc.4.o", 
+    "file": "../src/tap-bridge/model/tap-encode-decode.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/csma/model/csma-channel.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/csma/model/csma-channel.cc.1.o", 
+    "file": "../src/csma/model/csma-channel.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/model/mmwave-mac-pdu-tag.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/model/mmwave-mac-pdu-tag.cc.1.o", 
+    "file": "../src/mmwave/model/mmwave-mac-pdu-tag.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/lr-wpan/model/lr-wpan-mac.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lr-wpan/model/lr-wpan-mac.cc.1.o", 
+    "file": "../src/lr-wpan/model/lr-wpan-mac.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-tx-mode.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/uan/model/uan-tx-mode.cc.1.o", 
+    "file": "../src/uan/model/uan-tx-mode.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/helper/ipv4-global-routing-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/helper/ipv4-global-routing-helper.cc.1.o", 
+    "file": "../src/internet/helper/ipv4-global-routing-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet-apps/model/dhcp-server.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet-apps/model/dhcp-server.cc.1.o", 
+    "file": "../src/internet-apps/model/dhcp-server.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/lr-wpan/model/lr-wpan-spectrum-value-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lr-wpan/model/lr-wpan-spectrum-value-helper.cc.1.o", 
+    "file": "../src/lr-wpan/model/lr-wpan-spectrum-value-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/config.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/config.cc.1.o", 
+    "file": "../src/core/model/config.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/ethernet-trailer.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/network/utils/ethernet-trailer.cc.1.o", 
+    "file": "../src/network/utils/ethernet-trailer.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/buildings/model/hybrid-buildings-propagation-loss-model.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/buildings/model/hybrid-buildings-propagation-loss-model.cc.1.o", 
+    "file": "../src/buildings/model/hybrid-buildings-propagation-loss-model.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/energy/helper/basic-energy-source-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/energy/helper/basic-energy-source-helper.cc.1.o", 
+    "file": "../src/energy/helper/basic-energy-source-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/buildings/model/mobility-building-info.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/buildings/model/mobility-building-info.cc.1.o", 
+    "file": "../src/buildings/model/mobility-building-info.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/traffic-control/model/fq-codel-queue-disc.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/traffic-control/model/fq-codel-queue-disc.cc.1.o", 
+    "file": "../src/traffic-control/model/fq-codel-queue-disc.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/spectrum-model-300kHz-300GHz-log.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/spectrum/model/spectrum-model-300kHz-300GHz-log.cc.1.o", 
+    "file": "../src/spectrum/model/spectrum-model-300kHz-300GHz-log.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-vegas.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-vegas.cc.1.o", 
+    "file": "../src/internet/model/tcp-vegas.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/rem-spectrum-phy.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/rem-spectrum-phy.cc.1.o", 
+    "file": "../src/lte/model/rem-spectrum-phy.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/uinteger.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/uinteger.cc.1.o", 
+    "file": "../src/core/model/uinteger.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/udp-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/udp-header.cc.1.o", 
+    "file": "../src/internet/model/udp-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/candidate-queue.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/candidate-queue.cc.1.o", 
+    "file": "../src/internet/model/candidate-queue.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 ../src/fd-net-device/helper/tap-device-creator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/fd-net-device/helper/tap-device-creator.cc.4.o", 
+    "file": "../src/fd-net-device/helper/tap-device-creator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-pmtu-cache.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv6-pmtu-cache.cc.1.o", 
+    "file": "../src/internet/model/ipv6-pmtu-cache.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/helper/mmwave-point-to-point-epc-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/helper/mmwave-point-to-point-epc-helper.cc.1.o", 
+    "file": "../src/mmwave/helper/mmwave-point-to-point-epc-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/edca-parameter-set.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/edca-parameter-set.cc.1.o", 
+    "file": "../src/wifi/model/edca-parameter-set.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/tcp-wireless.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/tcp-wireless.cc.18.o", 
+    "file": "../scratch/tcp-wireless.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/energy/model/li-ion-energy-source.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/energy/model/li-ion-energy-source.cc.1.o", 
+    "file": "../src/energy/model/li-ion-energy-source.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-congestion-ops.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-congestion-ops.cc.1.o", 
+    "file": "../src/internet/model/tcp-congestion-ops.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/std_5g.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/std_5g.cc.12.o", 
+    "file": "../scratch/std_5g.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/flow-monitor/model/flow-monitor.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/flow-monitor/model/flow-monitor.cc.1.o", 
+    "file": "../src/flow-monitor/model/flow-monitor.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 ../src/core/model/scheduler.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/core/model/scheduler.cc.1.o", 
+    "file": "../src/core/model/scheduler.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-option-winscale.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/tcp-option-winscale.cc.1.o", 
+    "file": "../src/internet/model/tcp-option-winscale.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-packet-filter.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/ipv4-packet-filter.cc.1.o", 
+    "file": "../src/internet/model/ipv4-packet-filter.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-ue-net-device.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lte/model/lte-ue-net-device.cc.1.o", 
+    "file": "../src/lte/model/lte-ue-net-device.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/web_5g.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/web_5g.cc.6.o", 
+    "file": "../scratch/web_5g.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/standardx_5g.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/scratch/standardx_5g.cc.5.o", 
+    "file": "../scratch/standardx_5g.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mmwave/helper/mmwave-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/mmwave/helper/mmwave-helper.cc.1.o", 
+    "file": "../src/mmwave/helper/mmwave-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/global-route-manager.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet/model/global-route-manager.cc.1.o", 
+    "file": "../src/internet/model/global-route-manager.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/lr-wpan/model/lr-wpan-mac-header.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/lr-wpan/model/lr-wpan-mac-header.cc.1.o", 
+    "file": "../src/lr-wpan/model/lr-wpan-mac-header.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wave/model/channel-coordinator.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wave/model/channel-coordinator.cc.1.o", 
+    "file": "../src/wave/model/channel-coordinator.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 ../src/fd-net-device/helper/encode-decode.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/fd-net-device/helper/encode-decode.cc.5.o", 
+    "file": "../src/fd-net-device/helper/encode-decode.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet-apps/helper/dhcp-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/internet-apps/helper/dhcp-helper.cc.1.o", 
+    "file": "../src/internet-apps/helper/dhcp-helper.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/ap-wifi-mac.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/wifi/model/ap-wifi-mac.cc.1.o", 
+    "file": "../src/wifi/model/ap-wifi-mac.cc"
+  }, 
+  {
+    "directory": "/home/mdiarra/RAPID/ns3-mmwave/build", 
+    "command": "/misc/opt/gcc/7.3.0/bin/g++ -Wall -march=native -fstrict-overflow -Wstrict-overflow=2 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_OPTIMIZED -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/traffic-control/helper/traffic-control-helper.cc -c -o /home/mdiarra/RAPID/ns3-mmwave/build/src/traffic-control/helper/traffic-control-helper.cc.1.o", 
+    "file": "../src/traffic-control/helper/traffic-control-helper.cc"
+  }
+]
