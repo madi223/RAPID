@@ -52,9 +52,20 @@ buff          | The size of RLC and TCP buffers in MegaByte (e.g. 10 for 10MB bu
 rtt           | The end-to-end RTT in ms (e.g 1 for 1ms RTT)
 
 In order to reproduce the results shown in the original paper, you need to run **start-los.sh** 4 times with different **rtt** (i.e. 1, 2, 4 and 8).<br/>
-After running **start-los.sh**, you'll find in csv format, all the logs about the different flows and the acheived goodputs in a new directory named **LOS-result**.<br/>
+After running **start-los.sh**, you'll find in csv format, all the logs about the different flows and the acheived goodputs in a new directory named **LOS-results**.<br/>
 The results in **LOS-results** are based on the following naming scheme:
-* **scen\<scen>-All.\<buff>.\<rtt>.csv** : contains the goodput and duration of all the flows of scenario <scen> and RTT <rtt>. For instance the file **scen0-All.10.1.csv** contains the goodputs and flow durations for scenario 0 (i.e. Cubic vs BBR) in case of 1ms RTT. 
+* **scen\<scen>-All.\<buff>.\<rtt>.csv** : contains the goodput and duration of all the flows for all the runs of scenario <scen> and RTT <rtt>. For instance the file **scen0-All.10.1.csv** contains the goodputs and flow durations for scenario 0 (i.e. Cubic vs BBR) in case of 1ms RTT.
+```
+$cd LOS-results/
+$cat scen0-All.10.1.csv
+stream,scen,cca,run,data,duration,goodput,buffer,rtt
+Cubic,0.10M,Cubic,1,209715200,1.960671,855687466,10,1
+BBR,0.10M,BBR,1,209715200,7.278764,230495397,10,1
+Cubic,0.10M,Cubic,2,209715200,1.960171,855905734,10,1
+BBR,0.10M,BBR,2,42897400,14.898754,23034087,10,1
+....  
+  
+```
 
 The **start-los.sh** aims to facilitate the simulations, but you can also run the program with waf or create your own simulation script:
 ```
