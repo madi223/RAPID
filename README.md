@@ -161,29 +161,29 @@ $./start-nlos.sh 0 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
 ```
 ## 2.3 Fast and app-limited (web) Download in LOS
 ### 2.3.1 Without RAPID
-In all the steps of **2.1.1** , Replace **scen=0** by **scen=11**
+In all the steps of **2.1.1** , Replace **scen=0** by **scen=11**, **data=200** by **data=0** and **simTime=20** by **simTime=10**
 ```
 $cd ns3-mmwave/
-$./start-los.sh 11 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+$./start-los.sh 11 1,2,3,4,5,6,7,8,9,10 10 0 2 10 1
 ```
   
 ### 2.3.2 With RAPID
-In all the steps of **2.1.2** , Replace **scen=0** by **scen=11**
+In all the steps of **2.1.2** , Replace **scen=0** by **scen=11**, **data=200** by **data=0** and **simTime=20** by **simTime=10**
 ```
 $cd rapid/
-$./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+$./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 10 0 2 10 1
 ```
 ## 2.4 Fast and app-limited (web) Download in NLOS
 ### 2.4.1 Without RAPID
 In all the steps of **2.3.1** , Replace **start-los.sh** by **start-nlos.sh**
 ```
 $cd ns3-mmwave/
-$./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+$./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 10 0 2 10 1
 ```
   
 ### 2.3.2 With RAPID
 In all the steps of **2.3.2** , Replace **start-los.sh** by **start-nlos.sh**
 ```
 $cd rapid/
-$./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+$./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 10 0 2 10 1
 ```
