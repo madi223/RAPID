@@ -46,3 +46,8 @@ Parameters    | Description
 Scen          | Scenario number (e.g., 0 corresponds to Cubic-vs-BBR )
 run           | Comma-separated list of the desired ns3 run numbers (e.g. 1,2,3,4,5 for five independent runs)
 simTime       | ns3 simulation time (e.g. 20 for a 20 seconds simulation, make sure to choose a simTime always greater than the download duration unless the data is unlimitted)
+data          | The size of data to download in MegaByte (e.g. 200 for 200MB data). You can indicate 0 for a continuous download
+stream        | The number of concurrent flows (e.g. 2 for cubic and BBR)
+buff          | The size of RLC and TCP buffers in MegaByte (e.g. 10 for 10MB buffer)
+rtt           | The end-to-end RTT in ms (e.g 1 for 1ms RTT)
+
