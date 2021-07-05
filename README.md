@@ -32,6 +32,7 @@ CXXFLAGS="-Wall" ./waf configure --build-profile=optimized
 # 2. Reproducing the results shown in the paper: Cubic vs BBR
 ## 2.1 Fast Download in LOS
 ### 2.1.1 Without RAPID
+#### Step 1: launch the simulation
 From the root repository (RAPID), go to the legacy ns3 directory (ns3-mmwave) and launch the script **"start-los.sh"** with the required parameters (scen, runlist, simTime, data, #stream, buff, rtt):
 
 ```
@@ -53,6 +54,7 @@ rtt           | The end-to-end RTT in ms (e.g 1 for 1ms RTT)
 
 In order to reproduce the results shown in the original paper, you need to run **start-los.sh** 4 times with different **rtt** (i.e. 1, 2, 4 and 8).<br/>
 After running **start-los.sh**, you'll find in csv format, all the logs about the different flows and the acheived goodputs in a new directory named **LOS-results**.<br/>
+#### Step 2: Get the results
 The results in **LOS-results** are based on the following naming scheme:
 * **scen\<scen>-All.\<buff>.\<rtt>.csv** : contains the goodput and duration of all the flows for all the runs of scenario \<scen> and RTT \<rtt>. For instance the file **scen0-All.10.1.csv** contains the goodputs and flow durations for scenario 0 (i.e. Cubic vs BBR) in case of 1ms RTT.
 ```
@@ -83,6 +85,8 @@ time,cwnd,rtt,throughput,ran,tbs,BytesInflight,CCAstate,dstport,srcport
 0.101096,14000,1,78.4,0,0,9800,0,1235,49153
 ...
 ```
+#### Step 3: Calculate average RTT variations for each flow
+
 After running **start-los.sh** four times (e.g. for rtt=1, rtt=2, rtt=4 and rtt=8), you can compute the EMA of the rtt-increase for each flow with 95% CI by using the following commands and scripts (keep in mind that you can still use your own script for that): 
 
 ```
