@@ -72,7 +72,7 @@ BBR,0.10M,BBR,2,42897400,14.898754,23034087,10,1
 ```
 $cd LOS-results/
 $cat scen-0-Run2stream-1.10.1.csv
-**time,cwnd,rtt,throughput,ran,tbs,BytesInflight,CCAstate,dstport,srcport**
+time,cwnd,rtt,throughput,ran,tbs,BytesInflight,CCAstate,dstport,srcport
 0.101096,14000,1,0,0,0,0,0,1235,49153
 0.101096,14000,1,11.2,0,0,1400,0,1235,49153
 0.101096,14000,1,22.4,0,0,2800,0,1235,49153
@@ -83,7 +83,7 @@ $cat scen-0-Run2stream-1.10.1.csv
 0.101096,14000,1,78.4,0,0,9800,0,1235,49153
 ...
 ```
-
+After running **start-los.sh** four times (e.g. for rtt=1, rtt=2, rtt=4 and rtt=8), you can compute the EMA of the average rtt-increase by using the following commands and scripts (keep in mind that you can still use your own script for that): 
 
 The **start-los.sh** aims to facilitate the simulations, but you can also run the program with waf or create your own simulation script:
 ```
