@@ -3,11 +3,11 @@ RAPID (RAN-Aware Proxy-based flow control for HIgh througput and low Delay eMBB)
 
 <img src="ns3-testbed-git.png" alt="My cool logo"/>
 
-# Building the simulation envioronment
+# 1. Building the simulation envioronment
 
-## Legacy ns3 with mmWave
+## 1.1 Legacy ns3 with mmWave
 
-This is the legacy ns3 with mmWave module and Full-duplex CSMA support. All the simulations that don't involve RAPID should be run on this legacy version. 
+The commands below build ns3 with mmWave module and Full-duplex CSMA support. All the simulations that don't involve RAPID should be run on this legacy version. 
 
 ```
 
@@ -18,6 +18,14 @@ CXXFLAGS="-Wall" ./waf configure --build-profile=optimized
 
 ```
 
-## Modified ns3 with RAPID
+## 1.2 Modified ns3 with RAPID
 
-Connect to the server and start FlexRAN controller using the commands below:
+The commands below build a modified ns3 with mmWave and RAPID support. The simulations that require RAPID should be run on this modified version.
+
+```
+cd rapid/
+./waf clean
+CXXFLAGS="-Wall" ./waf configure --build-profile=optimized
+./waf
+
+```
