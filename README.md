@@ -3,20 +3,21 @@ RAPID (RAN-Aware Proxy-based flow control for HIgh througput and low Delay eMBB)
 
 <img src="ns3-testbed-git.png" alt="My cool logo"/>
 
-# Building legacy mmWave-ns3 and RAPID  
+# Building the simulation envioronment
 
-## 1.1 Launch nodes images on r2lab
+## Legacy ns3 with mmWave
 
-From your computer, launch the following commands
-
-```
-
-cd meld-demos/
-
-python3 meld-deploy -s <slicename>
+This is the legacy ns3 with mmWave module and Full-duplex CSMA support. All the simulations that don't involve RAPID should be run on this legacy version. 
 
 ```
 
-## 1.1 Start FlexRan Controller (fit14)
+cd ns3-mmwave/
+./waf clean
+CXXFLAGS="-Wall" ./waf configure --build-profile=optimized
+./waf
+
+```
+
+## Modified ns3 with RAPID
 
 Connect to the server and start FlexRAN controller using the commands below:
