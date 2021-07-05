@@ -32,7 +32,7 @@ CXXFLAGS="-Wall" ./waf configure --build-profile=optimized
 # 2. Reproducing the results shown in the paper: Cubic vs BBR
 ## 2.1 Fast Download in LOS
 ### 2.1.1 Without RAPID
-From the root repository (RAPID), go to the legacy ns3 directory (ns3-mmwave) and launch the script *"start-los.sh"* with the required parameters (scen, runlist, simTime, data, #stream, buff, rtt):
+From the root repository (RAPID), go to the legacy ns3 directory (ns3-mmwave) and launch the script **"start-los.sh"** with the required parameters (scen, runlist, simTime, data, #stream, buff, rtt):
 
 ```
 $cd ns3-mmwave/
@@ -51,9 +51,10 @@ stream        | The number of concurrent flows (e.g. 2 for cubic and BBR)
 buff          | The size of RLC and TCP buffers in MegaByte (e.g. 10 for 10MB buffer)
 rtt           | The end-to-end RTT in ms (e.g 1 for 1ms RTT)
 
-In order to reproduce the results shown in the original paper, you need to run *start-los.sh* 4 times with different *rtt* (i.e. 1, 2, 4 and 8).
+In order to reproduce the results shown in the original paper, you need to run **start-los.sh** 4 times with different **rtt** (i.e. 1, 2, 4 and 8).
+After running **start-los.sh**, you'll find in csv format, all the logs about the different flows and the acheived goodputs in a new directory named **LOS-result**.
 
-The *start-los.sh* aims to facilitate the simulations, but you can also run the program with waf or create your own simulation script:
+The **start-los.sh** aims to facilitate the simulations, but you can also run the program with waf or create your own simulation script:
 ```
 ./waf --run "standard200Mhz_5g --simTime=20 --data=200 --stream=2 --buff=10 --scen=0 --serverDelay=1 --run=1"
 
