@@ -52,6 +52,8 @@ stream        | The number of concurrent flows (e.g. 2 for cubic and BBR)
 buff          | The size of RLC and TCP buffers in MegaByte (e.g. 10 for 10MB buffer)
 rtt           | The end-to-end RTT in ms (e.g 1 for 1ms RTT)
 
+<br/>
+
 In order to reproduce the results shown in the original paper, you need to run **start-los.sh** 4 times with different **rtt** (i.e. 1, 2, 4 and 8).<br/>
 After running **start-los.sh**, you'll find in csv format, all the logs about the different flows and the acheived goodputs in a new directory named **LOS-results**.<br/>
 #### Step 2: Get the results
@@ -71,7 +73,7 @@ BBR,0.10M,BBR,2,42897400,14.898754,23034087,10,1
 
 * **scen-\<scen>-Run\<run>stream-\<stream>.\<buff>.\<rtt>.csv** : Contains the cwnd, rtt, bytesinflight variations over time of a given flow <stream> of scenario <scen>. For instance the file **scen-0-Run2stream-1.10.1.csv ** contains the information of the Cubic flow (stream 1) in scenario 0 and rtt=1.
 
-```
+```  
 $cd LOS-results/
 $cat scen-0-Run2stream-1.10.1.csv
 time,cwnd,rtt,throughput,ran,tbs,BytesInflight,CCAstate,dstport,srcport
