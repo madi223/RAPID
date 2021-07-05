@@ -3,7 +3,7 @@ RAPID (RAN-Aware Proxy-based flow control for HIgh througput and low Delay eMBB)
 
 <img src="ns3-testbed-git.png" alt="My cool logo"/>
 
-# 1. Building the simulation envioronment
+# 1. Building the simulation environment
 
 ## 1.1 Legacy ns3 with mmWave
 
