@@ -29,10 +29,10 @@ CXXFLAGS="-Wall" ./waf configure --build-profile=optimized
 ./waf
 
 ```
-# 2. Reproducing the scenatios/results shown in the paper: Cubic vs BBR
+# 2. Reproducing the results shown in the paper: Cubic vs BBR
 ## 2.1 Fast Download in LOS
-### Without RAPID
-From the root repository (RAPID), go to the legacy ns3 directory (ns3-mmwave) and launch the script "start-los.sh" as follows:
+### 2.1.1 Without RAPID
+From the root repository (RAPID), go to the legacy ns3 directory (ns3-mmwave) and launch the script "start-los.sh" with the required parameters (scen, runlist, simTime, data, #stream, buff, rtt):
 
 ```
 $cd ns3-mmwave/
