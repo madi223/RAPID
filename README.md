@@ -38,10 +38,11 @@ From the root repository (RAPID), go to the legacy ns3 directory (ns3-mmwave) an
 $cd ns3-mmwave/
 $./start-los.sh -h
 [usage]: ./start-los.sh <scen>  <run1,runn> <simTime> <data> <stream> <buff> <rtt>
-$./start-los.sh 0 1,2,3,4,5,6,7,8,9,10 200 2 10 1
+$./start-los.sh 0 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
 
 ```
-First Header  | Second Header
+Parameters    | Description
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Scen          | Scenario number (e.g., 0 corresponds to Cubic-vs-BBR )
+run           | Comma-separated list of the desired ns3 run numbers (e.g. 1,2,3,4,5 for five independent runs)
+simTime       | ns3 simulation time (e.g. 20 for a 20 seconds simulation, make sure to choose a simTime always greater than the download duration unless the data is unlimitted)
