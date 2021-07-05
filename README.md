@@ -54,7 +54,7 @@ rtt           | The end-to-end RTT in ms (e.g 1 for 1ms RTT)
 In order to reproduce the results shown in the original paper, you need to run **start-los.sh** 4 times with different **rtt** (i.e. 1, 2, 4 and 8).<br/>
 After running **start-los.sh**, you'll find in csv format, all the logs about the different flows and the acheived goodputs in a new directory named **LOS-result**.<br/>
 The results in **LOS-results** are based on the following naming scheme:
-* scen<scen>-All.<buff>.<rtt>.csv : contains the goodput and duration of all the flows of scenario <scen> and RTT <rtt>. For instance the file **scen0-All.10.1.csv** contains the goodputs and flow durations for scenario 0 (i.e. Cubic vs BBR) in case of 1ms RTT. 
+* **scen<scen>-All.<buff>.<rtt>.csv** : contains the goodput and duration of all the flows of scenario <scen> and RTT <rtt>. For instance the file **scen0-All.10.1.csv** contains the goodputs and flow durations for scenario 0 (i.e. Cubic vs BBR) in case of 1ms RTT. 
 
 The **start-los.sh** aims to facilitate the simulations, but you can also run the program with waf or create your own simulation script:
 ```
