@@ -83,7 +83,10 @@ time,cwnd,rtt,throughput,ran,tbs,BytesInflight,CCAstate,dstport,srcport
 0.101096,14000,1,78.4,0,0,9800,0,1235,49153
 ...
 ```
-After running **start-los.sh** four times (e.g. for rtt=1, rtt=2, rtt=4 and rtt=8), you can compute the EMA of the average rtt-increase by using the following commands and scripts (keep in mind that you can still use your own script for that): 
+After running **start-los.sh** four times (e.g. for rtt=1, rtt=2, rtt=4 and rtt=8), you can compute the EMA of the rtt-increase for each flow with 95% CI by using the following commands and scripts (keep in mind that you can still use your own script for that): 
+
+```
+```
 
 The **start-los.sh** aims to facilitate the simulations, but you can also run the program with waf or create your own simulation script:
 ```
