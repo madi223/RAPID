@@ -2,6 +2,7 @@
 RAPID (RAN-Aware Proxy-based flow control for HIgh througput and low Delay eMBB) is a TCP proxy that aims to mitigate self-inflicted bufferbloat and maximize link utilization in today and future cellular networks. RAPID exploits real-time radio information and arrival rates of the concurrent flows in order to distribute proportionally the available RAN bandidth. Find below the required steps in order to reproduce the results shown in the paper.
 
 <img src="ns3-testbed-git.png" alt="My cool logo"/>
+<br/>
 
 # 1. Building the simulation environment
 
@@ -92,6 +93,18 @@ time,cwnd,rtt,throughput,ran,tbs,BytesInflight,CCAstate,dstport,srcport
 After running **start-los.sh** four times (e.g. for rtt=1, rtt=2, rtt=4 and rtt=8), you can compute the EMA of the rtt-increase for each flow with 95% CI by using the following commands and scripts (keep in mind that you can still use your own script for that): 
 
 ```
+$mkdir cubic.1ms && cp LOS-results/scen-0-Run*stream-1.10.1.csv cubic.1ms/
+$./allci.sh cubic.1ms
+$mv rtt.ci.csv cubic.1ms.csv
+
+$mkdir bbr.1ms && cp LOS-results/scen-0-Run*stream-2.10.1.csv bbr.1ms/
+$./allci.sh bbr.1ms
+$mv rtt.ci.csv bbr.1ms.csv
+```
+These commands allow to calculate the average RTT for the 2 flows (cubic and BBR) only in case of 1ms RTT, you need to repeat the same process for the other RTT configurations (2,4, and 8). After that you can plot the CDF using our provided python script or your own:
+  
+```
+$python3 cdf.py --c1 cubic.1ms.csv --c8 cubic.8ms.csv --b1 bbr.1ms.csv --b8 bbr.8ms.csv
 ```
 
 The **start-los.sh** aims to facilitate the simulations, but you can also run the program with waf or create your own simulation script:
@@ -99,4 +112,78 @@ The **start-los.sh** aims to facilitate the simulations, but you can also run th
 ./waf --run "standard200Mhz_5g --simTime=20 --data=200 --stream=2 --buff=10 --scen=0 --serverDelay=1 --run=1"
 
 ```
+### 2.1.2 With RAPID
+#### Step 1: launch the simulation
+From the root repository (RAPID), go to the rapid directory and launch the script **"start-los.sh"** with the required parameters (scen, runlist, simTime, data, #stream, buff, rtt):
 
+```
+$cd rapid/
+$./start-los.sh -h
+[usage]: ./start-los.sh <scen>  <run1,runn> <simTime> <data> <stream> <buff> <rtt>
+$./start-los.sh 0 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+
+```
+#### Step 2: Get the results
+Same as in **2.1.1**
+
+#### Step 3: Calculate average RTT variations for each flow
+Here, since the proxy splits each individual flow into 2 subflows, we need first to calculate the end-to-end RTT by combining the RTT of the 2 subflows. For that we use the following scripts:
+
+```
+$./parse-mix.sh LOS-results
+$cd LOS-results/results
+$mkdir cubic.1ms && cp *S1*.csv cubic.1ms/
+$mkdir bbr.1ms && cp *S2*.csv bbr.1ms/
+  
+$cd ../../
+$./allci.sh LOS-results/results/cubic.1ms
+$mv rtt.ci.csv cubic.1ms.csv
+
+$./allci.sh LOS-results/results/bbr.1ms
+$mv rtt.ci.csv bbr.1ms.csv
+```
+Repeat the same process for the other RTT configurations (2,4, and 8). After that you can plot the CDF using our provided python script or your own:
+```
+$python3 cdf.py --c1 cubic.1ms.csv --c8 cubic.8ms.csv --b1 bbr.1ms.csv --b8 bbr.8ms.csv --new
+```
+## 2.2 Fast Download in NLOS
+### 2.2.1 Without RAPID
+In all the steps of **2.1.1** , Replace **start-los.sh** by **start-nlos.sh**
+```
+$cd ns3-mmwave/
+$./start-nlos.sh 0 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+```
+### 2.2.2 With RAPID
+In all the steps of **2.1.2** , Replace **start-los.sh** by **start-nlos.sh**
+```
+$cd rapid/
+$./start-nlos.sh 0 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+```
+## 2.3 Fast and app-limited (web) Download in LOS
+### 2.3.1 Without RAPID
+In all the steps of **2.1.1** , Replace **scen=0** by **scen=11**
+```
+$cd ns3-mmwave/
+$./start-los.sh 11 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+```
+  
+### 2.3.2 With RAPID
+In all the steps of **2.1.2** , Replace **scen=0** by **scen=11**
+```
+$cd rapid/
+$./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+```
+## 2.4 Fast and app-limited (web) Download in NLOS
+### 2.4.1 Without RAPID
+In all the steps of **2.3.1** , Replace **start-los.sh** by **start-nlos.sh**
+```
+$cd ns3-mmwave/
+$./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+```
+  
+### 2.3.2 With RAPID
+In all the steps of **2.3.2** , Replace **start-los.sh** by **start-nlos.sh**
+```
+$cd rapid/
+$./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+```
