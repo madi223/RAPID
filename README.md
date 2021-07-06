@@ -124,7 +124,7 @@ $./start-los.sh -h
 $./start-los.sh 0 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
 
 ```
-You can also run the RAPID with waf or create your own simulation script:
+You can also run RAPID with waf or create your own simulation script:
 ```
 cd rapid/
 ./waf --run "pep2_5g --simTime=20 --data=200 --stream=2 --buff=10 --scen=0 --serverDelay=1 --run=1"
