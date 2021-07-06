@@ -206,7 +206,7 @@ Scenario ID   | Description
 11            | Cubic downloading large file while BBR limited at 16 Mbps (Web browsing) 
   
 ## 3.1 Simulating scenario 4
-### Witout RAPID
+### 3.1.1 Without RAPID
 For LOS conditions
 ```
 $cd ns3-mmwave/
@@ -217,3 +217,16 @@ For NLOS conditions
 $cd ns3-mmwave/
 $./start-nlos.sh 4 1,2,3,4,5,6,7,8,9,10 20 200 6 10 1
 ```
+  
+### 3.1.2 With RAPID
+For LOS conditions
+```
+$cd rapid/
+$./start-los.sh 4 1,2,3,4,5,6,7,8,9,10 20 200 6 10 1
+```
+For NLOS conditions
+```
+$cd rapid/
+$./start-nlos.sh 4 1,2,3,4,5,6,7,8,9,10 20 200 6 10 1
+```
+### 3.1.3 Analysing the results
