@@ -230,3 +230,7 @@ $cd rapid/
 $./start-nlos.sh 4 1,2,3,4,5,6,7,8,9,10 20 200 6 10 1
 ```
 ### 3.1.3 Analysing the results
+<img src="ns3-testbed-git.png" alt="My cool logo"/>
+<br/>
+<img src="ns3-testbed-git.png" alt="My cool logo"/>
+<br/>
