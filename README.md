@@ -187,3 +187,12 @@ In all the steps of **2.3.2** , Replace **start-los.sh** by **start-nlos.sh**
 $cd rapid/
 $./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 10 0 2 10 1
 ```
+  
+# 3. Evaluating other scenarios: NewReno,Cubic,BBR,Westwood,YeAh,Vegas
+
+Scenario ID   | Description
+------------- | -------------
+0             | Cubic and BBR downloading same data simultaneously
+1             | NewReno, Vegas and Westwood downloading same data simultaneously
+3             | NewReno, Cubic and BBR downloading same data simultaneously
+4             | NewReno, Cubic, YeAh, Westwood, Vegas and BBR downloading same data simultaneously
