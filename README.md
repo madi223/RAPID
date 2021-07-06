@@ -109,6 +109,7 @@ $python3 cdf.py --c1 cubic.1ms.csv --c8 cubic.8ms.csv --b1 bbr.1ms.csv --b8 bbr.
 
 The **start-los.sh** aims to facilitate the simulations, but you can also run the program with waf or create your own simulation script:
 ```
+cd ns3-mmwave/
 ./waf --run "standard200Mhz_5g --simTime=20 --data=200 --stream=2 --buff=10 --scen=0 --serverDelay=1 --run=1"
 
 ```
@@ -121,6 +122,12 @@ $cd rapid/
 $./start-los.sh -h
 [usage]: ./start-los.sh <scen>  <run1,runn> <simTime> <data> <stream> <buff> <rtt>
 $./start-los.sh 0 1,2,3,4,5,6,7,8,9,10 20 200 2 10 1
+
+```
+You can also run the RAPID with waf or create your own simulation script:
+```
+cd rapid/
+./waf --run "pep2_5g --simTime=20 --data=200 --stream=2 --buff=10 --scen=0 --serverDelay=1 --run=1"
 
 ```
 #### Step 2: Get the results
@@ -196,3 +203,17 @@ Scenario ID   | Description
 1             | NewReno, Vegas and Westwood downloading same data simultaneously
 3             | NewReno, Cubic and BBR downloading same data simultaneously
 4             | NewReno, Cubic, YeAh, Westwood, Vegas and BBR downloading same data simultaneously
+11            | Cubic downloading large file while BBR limited at 16 Mbps (Web browsing) 
+  
+## 3.1 Simulating scenario 4
+### Witout RAPID
+For LOS conditions
+```
+$cd ns3-mmwave/
+$./start-los.sh 4 1,2,3,4,5,6,7,8,9,10 20 200 6 10 1
+```
+For NLOS conditions
+```
+$cd ns3-mmwave/
+$./start-nlos.sh 4 1,2,3,4,5,6,7,8,9,10 20 200 6 10 1
+```
