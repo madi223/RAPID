@@ -188,7 +188,7 @@ $cd rapid/
 $./start-nlos.sh 11 1,2,3,4,5,6,7,8,9,10 10 0 2 10 1
 ```
   
-# 3. Evaluating other scenarios: NewReno,Cubic,BBR,Westwood,YeAh,Vegas
+# 3. Evaluating RAPID with other Congestion Controllers
 
 Scenario ID   | Description
 ------------- | -------------
