@@ -1,0 +1,100 @@
+Waf: Entering directory `/home/mdiarra/RAPID/ns3-mmwave/build'
+Waf: Leaving directory `/home/mdiarra/RAPID/ns3-mmwave/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.602s)
+LEGACY 5G mmWave
+Mamoutou Diarra Sophia-Antipolis, France 
+mamoutou.diarra@inria.fr
+Download Size: 209715200
+Server to Proxy RTT: 8
+Channel variance: 0
+RLC Buffer size: 10
+router if2 = 1.1.0.2
+router if1 = 2.1.0.1
+pgw if1 = 7.0.0.1
+pgw if2 = 1.1.0.1
+after tcp
+PING  2.1.0.1 56(84) bytes of data.
+PING  2.1.0.1 56(84) bytes of data.
+PING  2.1.0.1 56(84) bytes of data.
+PING  2.1.0.1 56(84) bytes of data.
+PING  2.1.0.1 56(84) bytes of data.
+PING  2.1.0.1 56(84) bytes of data.
+308 bytes from 2.1.0.1: icmp_seq=0 ttl=64 time=4 ms
+308 bytes from 2.1.0.1: icmp_seq=0 ttl=64 time=6 ms
+308 bytes from 2.1.0.1: icmp_seq=0 ttl=64 time=7 ms
+308 bytes from 2.1.0.1: icmp_seq=0 ttl=64 time=7 ms
+308 bytes from 2.1.0.1: icmp_seq=0 ttl=64 time=9 ms
+308 bytes from 2.1.0.1: icmp_seq=0 ttl=64 time=14 ms
+308 bytes from 2.1.0.1: icmp_seq=1 ttl=64 time=0 ms
+308 bytes from 2.1.0.1: icmp_seq=1 ttl=64 time=0 ms
+308 bytes from 2.1.0.1: icmp_seq=1 ttl=64 time=0 ms
+308 bytes from 2.1.0.1: icmp_seq=1 ttl=64 time=0 ms
+308 bytes from 2.1.0.1: icmp_seq=1 ttl=64 time=0 ms
+308 bytes from 2.1.0.1: icmp_seq=1 ttl=64 time=0 ms
+--- 2.1.0.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 100ms
+rtt min/avg/max/mdev = 0/3.5/7/4.95 ms
+--- 2.1.0.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 100ms
+rtt min/avg/max/mdev = 0/3/6/4.243 ms
+--- 2.1.0.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 100ms
+rtt min/avg/max/mdev = 0/2/4/2.828 ms
+--- 2.1.0.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 100ms
+rtt min/avg/max/mdev = 0/4.5/9/6.364 ms
+--- 2.1.0.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 100ms
+rtt min/avg/max/mdev = 0/7/14/9.899 ms
+--- 2.1.0.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 100ms
+rtt min/avg/max/mdev = 0/3.5/7/4.95 ms
+0x278c430  0.0961886  11.1108  47
+0x278c430  0.0961886  11.1108  51
+0x278c430  0.0961886  11.1108  32
+0x278c430  0.0961886  11.1108  9
+0x278c430  0.0961886  11.1108  8
+0x278c430  0.0961886  11.1108  8
+0x278c430  0.0961886  11.1108  8
+0x278c430  0.0961886  11.1108  8
+0x278c430  0.0961886  11.1108  8
+0x278c430  0.0961886  11.1108  8
+0x278c430  0.0961886  11.1108  8
+0x278c430  0.0961886  11.1108  8
+0x278c430  0.0961886  11.1108  8
+0x278c430  0.0961886  11.1108  8
+0x278c430  -1.38778e-17  -1.11022e-16  25
+0x278c430  0  0  29
+0x278c430  0  0  29
+0x278c430  0  0  29
+0x278c430  0  0  29
+0x278c430  0  0  29
+0x278c430  0  0  29
+0x278c430  0  0  29
+0x278c430  0  0  29
+************** UE [0] ********************* 
+Stream [0] : ---
+ Total Bytes received (Bytes):209715200
+ Total MBytes received (Mbytes):200
+ Total TCP throughput (Mbps):84.3076
+Stream [1] : ---
+ Total Bytes received (Bytes):209715200
+ Total MBytes received (Mbytes):200
+ Total TCP throughput (Mbps):84.3076
+Stream [2] : ---
+ Total Bytes received (Bytes):209715200
+ Total MBytes received (Mbytes):200
+ Total TCP throughput (Mbps):84.3076
+Stream [3] : ---
+ Total Bytes received (Bytes):209715200
+ Total MBytes received (Mbytes):200
+ Total TCP throughput (Mbps):84.3076
+Stream [4] : ---
+ Total Bytes received (Bytes):209715200
+ Total MBytes received (Mbytes):200
+ Total TCP throughput (Mbps):84.3076
+Stream [5] : ---
+ Total Bytes received (Bytes):10687600
+ Total MBytes received (Mbytes):10
+ Total TCP throughput (Mbps):4.29652

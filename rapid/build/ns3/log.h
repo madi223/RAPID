@@ -92,6 +92,7 @@ namespace ns3 {
     extern uint32_t TX_RLC;
     extern uint32_t RTX_RLC;
     extern uint32_t RX_RLC;
+    extern uint16_t CURRENT_MCS;
 
 /**
  *  Logging severity classes and levels.

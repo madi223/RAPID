@@ -45,7 +45,7 @@
 #include "ns3/core-module.h"
 #include <fstream>
 //#include "contrib-module.h"
-
+#include "ns3/mmwave-helper.h"
 
 
 namespace ns3 {
@@ -251,8 +251,21 @@ void ProxyFlow::ComputeRw(uint16_t conn, uint16_t mss)
 {
  double tti = 0.000125;
  double tbsmax = 11352;
-  double allowedtbs = std::abs(11352 - CURRENT_TBS + CURRENT_TBS);
- //double allowedtbs = CURRENT_TBS; 
+ std::string scheduler ="MmWaveFlexTtiMacScheduler";
+ //double allowedtbs = std::abs(11352 - CURRENT_TBS + CURRENT_TBS); 
+ // double allowedtbs =CURRENT_TBS;
+
+ Ptr<MmWaveHelper> mmwaveHelper1 = CreateObject<MmWaveHelper> ();
+mmwaveHelper1->SetSchedulerType ("ns3::"+scheduler);
+mmwaveHelper1->SetSchedulerType ("ns3::MmWaveFlexTtiMacScheduler");
+mmwaveHelper1->SetAttribute ("PathlossModel", StringValue ("ns3::MmWave3gppPropagationLossModel"));
+mmwaveHelper1->Initialize();
+Ptr<MmWaveAmc> amc = CreateObject <MmWaveAmc> ( mmwaveHelper1->GetPhyMacConfigurable ());
+ //int tbs = 0;
+ double maxtbs = amc->GetTbSizeFromMcs (CURRENT_MCS,50);
+ double allowedtbs = maxtbs;
+ std::cout<<"MCS: "<<CURRENT_MCS<<std::endl;
+ //double maxtbs = 
  m_rw = m_rtt == 0 ? /*mss*10*/std::pow(2,14): std::max (double(/*mss*10*/std::pow(2,14)),((allowedtbs/*CURRENT_TBS*//tti)*((m_rtt)/1000))/conn);
  DetectSlow();
 }

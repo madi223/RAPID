@@ -40,6 +40,7 @@ namespace ns3 {
 /** MELD variables**/
    uint16_t CURRENT_TBS;
    uint16_t CURRENT_RNTI;
+   uint16_t CURRENT_MCS;
 /*********************/
 
 NS_LOG_COMPONENT_DEFINE ("MmWavePhyRxTrace");
@@ -209,6 +210,7 @@ MmWavePhyRxTrace::RxPacketTraceUeCallback (Ptr<MmWavePhyRxTrace> phyStats, std::
    /** Update MELD TBS and RNTI **/
    ns3::CURRENT_TBS = params.m_tbSize;
    ns3::CURRENT_RNTI = params.m_rnti;
+   ns3::CURRENT_MCS = params.m_mcs;
    /********************************/
 
 }

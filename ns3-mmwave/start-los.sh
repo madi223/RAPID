@@ -88,6 +88,21 @@ for t in ${array[@]}; do
          else
             algo="Westwood"
          fi
+      elif [ $scen -eq 4 ]; then
+         if [ $i -eq 1 ]; then
+            algo="NewReno"
+         elif [ $i -eq 2 ]; then
+            algo="Cubic"
+         elif [ $i -eq 3 ]; then
+            algo="Yeah"
+         elif [ $i -eq 4 ]; then
+            algo="Westwood"
+         elif [ $i -eq 5 ]; then
+            algo="Vegas"
+         else
+            algo="BBR"
+         fi
+
       elif [ $scen -eq 11 ]; then
          if [ $i -eq 1 ]; then
             algo="Cubic"
