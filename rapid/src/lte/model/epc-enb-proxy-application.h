@@ -76,6 +76,7 @@ double   m_krt;
 double   m_arrival_rate;
 double   m_expected_rate;
 double   m_ema_prev;
+
 public:
 ProxyFlow(void);
 ProxyFlow(double m_rtt);
@@ -147,6 +148,7 @@ public:
   double m_proxyAvail;
   double m_proxySlowFlows;
   std::map<uint16_t,ProxyFlow>  m_proxyTab;
+  std::map<uint16_t,Ptr<TcpRxBuffer> >  m_rxBuffer;
   double Getfree();
   uint16_t GetSlowN();
 

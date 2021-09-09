@@ -125,6 +125,7 @@ public:
    * \param urgentPointer the urgent pointer for this TcpHeader
    */
   void SetUrgentPointer (uint16_t urgentPointer);
+  void UpdateHeaderLength();
 
 //Getters
 
@@ -313,6 +314,8 @@ public:
    * \return true if the operands are equal
    */
   friend bool operator== (const TcpHeader &lhs, const TcpHeader &rhs);
+
+
 
 private:
   /**

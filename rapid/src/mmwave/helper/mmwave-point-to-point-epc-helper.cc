@@ -56,6 +56,11 @@
 #include <ns3/epc-ue-nas.h>
 #include <ns3/config.h>
 
+#include "ns3/core-module.h"
+#include "ns3/network-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/applications-module.h"
 
 namespace ns3 {
 
@@ -299,6 +304,16 @@ MmWavePointToPointEpcHelper::AddEnb (Ptr<Node> enb, Ptr<NetDevice> lteEnbNetDevi
   p2ph_proxy.SetDeviceAttribute ("Mtu", UintegerValue (30000));
   p2ph_proxy.SetChannelAttribute ("Delay", TimeValue(Seconds(0)));
   NetDeviceContainer enbProxyDevices = p2ph_proxy.Install (enb, m_proxyNode);
+
+         /**** Introduce loss between INTERNET-router and PDN-GW *****/
+  /*Ptr<RateErrorModel> em = CreateObject<RateErrorModel> ();
+        em->SetAttribute ("ErrorRate", DoubleValue (0.01));
+        em->SetAttribute ("ErrorUnit", EnumValue (ns3::RateErrorModel::ERROR_UNIT_PACKET));
+        enbSgwDevices.Get (0)->SetAttribute ("ReceiveErrorModel", PointerValue (em));*/
+	/************************************************************/
+
+
+  
   NS_LOG_LOGIC ("number of Ipv4 ifaces of the eNB after installing p2p dev: " << enb->GetObject<Ipv4> ()->GetNInterfaces ());
 
   m_proxyIpv4AddressHelper.NewNetwork ();

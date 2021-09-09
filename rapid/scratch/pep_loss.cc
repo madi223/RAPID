@@ -822,6 +822,9 @@ main (int argc, char *argv[])
         Config::SetDefault ("ns3::MmWave3gppPropagationLossModel::Scenario", StringValue(scenario));
 
         Config::SetDefault("ns3::TcpSocketBase::WindowScaling",BooleanValue(true));
+          // ***************
+        Config::SetDefault("ns3::TcpSocketBase::Sack",BooleanValue(false));
+        // ***************
         Config::SetDefault("ns3::TcpSocketBase::Timestamp",BooleanValue(true));
         Config::SetDefault ("ns3::TcpSocketState::EnablePacing", BooleanValue (false));
 	Config::SetDefault ("ns3::TcpSocket::InitialCwnd", UintegerValue (10));
@@ -967,7 +970,7 @@ main (int argc, char *argv[])
            stream = 6;
         else if (scen == 25)
 	  stream = 25;
-	else if (scen == 20)
+	else if (scen == 100)
           stream = stream+0;
         
 
@@ -994,6 +997,12 @@ main (int argc, char *argv[])
 		p2ph.SetDeviceAttribute ("Mtu", UintegerValue (2500));
 		p2ph.SetChannelAttribute ("Delay", TimeValue (MilliSeconds (serverDelay/2)));
                 NetDeviceContainer internetDevices = p2ph.Install (pgw, rightRouter);
+	/**** Introduce loss between INTERNET-router and PDN-GW *****/
+	Ptr<RateErrorModel> em = CreateObject<RateErrorModel> ();
+        em->SetAttribute ("ErrorRate", DoubleValue (0.001));
+	em->SetAttribute ("ErrorUnit", EnumValue (ns3::RateErrorModel::ERROR_UNIT_PACKET));
+        internetDevices.Get (0)->SetAttribute ("ReceiveErrorModel", PointerValue (em));
+	/************************************************************/
                 CsmaHelper csma;
                 csma.SetChannelAttribute ("DataRate", DataRateValue (DataRate ("100Gb/s")));
                 csma.SetChannelAttribute ("Delay", TimeValue (MilliSeconds (0)));
@@ -1011,7 +1020,7 @@ main (int argc, char *argv[])
                 
                 
 
-		//p2ph.EnablePcapAll("p2ph");
+		p2ph.EnablePcapAll("p2ph");
                // csma.EnablePcapAll("csma");
                std::cout<<"after p2p"<<std::endl;	
 
@@ -1318,24 +1327,17 @@ else if (scen ==4)
           }
    }
 
- else if (scen ==20)
+ else if (scen == 100)
    {
      for (int i=0; i<remoteHostContainer.GetN();i++)
        {
-	 remoteHost = remoteHostContainer.Get (i);
+             remoteHost = remoteHostContainer.Get (i);
 
-	 if (i==0)
-           tid = TypeId::LookupByName ("ns3::TcpCubic");
-	 if (i==1)
-	   {
-	     tid = TypeId::LookupByName ("ns3::TcpCubic");
-	   }
-
-
-	 std::stringstream nodeId;
-	 nodeId <<remoteHost->GetId ();
-	 std::string specificNode = "/NodeList/" + nodeId.str () + "/$ns3::TcpL4Protocol/SocketType";
-	 Config::Set (specificNode, TypeIdValue (tid));
+               TypeId tid = TypeId::LookupByName ("ns3::TcpCubic");
+             std::stringstream nodeId;
+             nodeId <<remoteHost->GetId ();
+             std::string specificNode = "/NodeList/" + nodeId.str () + "/$ns3::TcpL4Protocol/SocketType";
+             Config::Set (specificNode, TypeIdValue (tid));
 	
        }
    }

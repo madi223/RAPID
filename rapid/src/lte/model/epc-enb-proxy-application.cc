@@ -515,11 +515,15 @@ AddOptionTimestamp (TcpHeader& header, Ptr<const TcpOptionTS> ts)
 			GtpuHeader tempGtpuHeader;
 			Ipv4Header tempIpv4Header;
 			TcpHeader tempTcpHeader;
+                       
+                        
 
 			packet -> RemoveHeader (tempGtpuHeader);
+                        Ptr<Packet> p = packet;
 			packet -> RemoveHeader (tempIpv4Header);
 			packet -> RemoveHeader (tempTcpHeader);
-                        
+                        TcpHeader tc = tempTcpHeader;
+
                           Ptr<const TcpOptionTS> ts;
                           Ptr<const TcpOptionWinScale> ws;
                           Ptr < TcpOptionWinScale> wsc;
@@ -575,11 +579,23 @@ AddOptionTimestamp (TcpHeader& header, Ptr<const TcpOptionTS> ts)
                           m_proxyRttAck[ srcPort ] = mtime <= 1 ? 1 : mtime; // 2*mtime; //(std::make_pair(destPort,ts->GetTimestamp()));
                           std::cout<<"RIGHT RTT = "<<2*m_proxyRttAck.find(srcPort)->second<<": "<<ts->GetTimestamp()<<std::endl;
                           TcpHeader testTCP = newTcpHeader; 
+
+                         // Create Receive Buffer
+
+                        if (m_rxBuffer.find(srcPort) == m_rxBuffer.end()){
+                            m_rxBuffer[srcPort] = CreateObject<TcpRxBuffer> ();
+                            m_rxBuffer[srcPort]->SetMaxBufferSize (900000);
+                        }
+                        /***************************** end Create Buffer ***********/
+                         
                         //  AddOptionTimestamp(testTCP,ts);
 
 			//#1 classify by tcp header: SYN
 			if(tempTcpHeader.GetFlags()==TcpHeader::SYN)
-			{
+			{       // Update Receive Buffer
+                                m_rxBuffer[srcPort]->SetNextRxSequence (tempTcpHeader.GetSequenceNumber () + SequenceNumber32 (1));
+                                
+                                /***************************** end Update Buffer ***********/
 				//Start Proxy TCP communication
 				NS_LOG_LOGIC("First packet from Server");
 
@@ -639,17 +655,20 @@ AddOptionTimestamp (TcpHeader& header, Ptr<const TcpOptionTS> ts)
                                dummy.SetDestinationPort(newTcpHeader.GetDestinationPort());
                                dummy.SetSourcePort(newTcpHeader.GetSourcePort());
                                Ptr<TcpOptionTS> option = CreateObject<TcpOptionTS> ();
+                               Ptr<TcpOptionSackPermitted> sackopt = CreateObject<TcpOptionSackPermitted> ();
 
                              option->SetTimestamp (TcpOptionTS::NowToTsValue ());
                              option->SetEcho (ts->GetTimestamp ());
                              //option->SetEcho (TcpOptionTS::NowToTsValue ());
                              dummy.AppendOption (option);
                              dummy.AppendOption(DynamicCast< const TcpOption >(wsc));
+                             //dummy.AppendOption(sackopt);
 
 				Ptr<Packet> ackPacket = Create<Packet> ();
                                // AddOptionTimestamp(newTcpHeader,ts);
 				//ackPacket->AddHeader(newTcpHeader);
                                 ackPacket->AddHeader(dummy);
+                             
 				ackPacket->AddHeader(newIpv4Header);
 				ackPacket->AddHeader(tempGtpuHeader);
 
@@ -669,10 +688,23 @@ AddOptionTimestamp (TcpHeader& header, Ptr<const TcpOptionTS> ts)
 			{
 				//Do nothing.. just wait for data packet
                            //std::cout<<"ONEWAY RTTAck = "<<oneway.GetMilliSeconds()<<": "<<ts->GetTimestamp()<<std::endl;
+                              // Update Receive Buffer
+                                m_rxBuffer[srcPort]->SetNextRxSequence (tempTcpHeader.GetSequenceNumber () + SequenceNumber32 (1));
+                                
+                                /***************************** end Update Buffer ***********/
 			}
 			//#3 receive data packet
 			else
-			{      // AddOptionTimestamp(newTcpHeader,ts);
+			{      
+                                 // Update Receive Buffer
+                                m_rxBuffer[srcPort]->Add(p,tc);
+                                uint32_t w;
+                                //SequenceNumber32 expectedSeq = m_rxBuffer->NextRxSequence ();
+                                w = (m_rxBuffer[srcPort]->MaxRxSequence () > m_rxBuffer[srcPort]->NextRxSequence ()) ? m_rxBuffer[srcPort]->MaxRxSequence () - m_rxBuffer[srcPort]->NextRxSequence () : 0;
+                                
+                                /***************************** end Update Buffer ***********/
+                                
+                                // AddOptionTimestamp(newTcpHeader,ts);
 
 				Ptr<Socket> proxyTcpSocket = m_proxyTcpSocketMap.find(srcPort)->second;
 				//Send data packet from proxy tcp to user
@@ -691,8 +723,10 @@ AddOptionTimestamp (TcpHeader& header, Ptr<const TcpOptionTS> ts)
                                 //awndSize = rtt_min == 0 ? packet->GetSize()*10: std::max (double(packet->GetSize()),((CURRENT_TBS/tti)*((rtt_min+m_proxyRttAck.find(destPort)->second)/1000))/active_flows);
                                 /****************************/
                                   std::cout<<"src port = "<<srcPort<<std::endl;
-                                  if (m_proxyTab.find(srcPort) == m_proxyTab.end())
+                                  if (m_proxyTab.find(srcPort) == m_proxyTab.end()){
                                   m_proxyTab[srcPort] = ProxyFlow(rtt_min+2*m_proxyRttAck.find(srcPort)->second,m_proxyRttAck.find(srcPort)->second);
+                                 // m_proxyTab[srcPort].rxBuffer = CreateObject<TcpRxBuffer> ();
+                                  }
                                   m_proxyTab[srcPort].SetRtt(/*rtt_min,*/rtt_min+2*m_proxyRttAck.find(srcPort)->second,m_proxyRttAck.find(srcPort)->second);
                                   //if(m_proxyTcpSocketMap.find(srcPort)->second->GetObject<TcpSocketBase>()->m_state <= ns3::TcpSocket::TcpStates_t::ESTABLISHED)
                                  m_proxyTab[srcPort].UpdateState(active_flows,packet);
@@ -752,28 +786,37 @@ AddOptionTimestamp (TcpHeader& header, Ptr<const TcpOptionTS> ts)
                         //wsc->SetScale(6);
                         //newTcpHeader.AppendOption(DynamicCast< const TcpOption >(wsc));
                                // proxyTcpSocket->GetObject<TcpSocketBase>()->SetRcvBufSize(static_cast<uint32_t>(awndSize));
-                               TcpHeader dummy;
-                               dummy.SetAckNumber(AckNum);
-                               dummy.SetSequenceNumber(newTcpHeader.GetSequenceNumber());
+                               TcpHeader dummy = TcpHeader();
+                               //if (w!=0)
+                                // AckNum = 
+                                
+                               dummy.SetAckNumber(m_rxBuffer[srcPort]->NextRxSequence ()); //dummy.SetAckNumber(AckNum);
+                               dummy.SetSequenceNumber(SequenceNumber32(1));//dummy.SetSequenceNumber(newTcpHeader.GetSequenceNumber());
                                dummy.SetFlags(TcpHeader::ACK);
 			       dummy.SetWindowSize(static_cast<uint32_t>(awndSize));
                                dummy.SetDestinationPort(newTcpHeader.GetDestinationPort());
                                dummy.SetSourcePort(newTcpHeader.GetSourcePort());
                                Ptr<TcpOptionTS> option = CreateObject<TcpOptionTS> ();
-
+                               
                              option->SetTimestamp (TcpOptionTS::NowToTsValue ());
                              option->SetEcho (ts->GetTimestamp ());
                              //option->SetEcho (TcpOptionTS::NowToTsValue ());
                              dummy.AppendOption (option);
+                             dummy.UpdateHeaderLength();
+                             std::cout << "ACK length === : "<<dummy.GetLength ()<<std::endl;
 
 				Ptr<Packet> ackPacket = Create<Packet> ();
 				//ackPacket->AddHeader(newTcpHeader);
                                 ackPacket->AddHeader(dummy);
+                                newIpv4Header.SetPayloadSize(ackPacket->GetSize());
 				ackPacket->AddHeader(newIpv4Header);
 				ackPacket->AddHeader(tempGtpuHeader);
 
 				m_totalRx += dataSize;
-
+                                /********************************/
+                                 if (m_rxBuffer[srcPort]->Available() > 10)
+                                     m_rxBuffer[srcPort]->Extract(m_rxBuffer[srcPort]->Available());
+                                /********************************/
 				uint32_t flags = 0;
 				m_proxyEnbSocket->SendTo (ackPacket, flags, InetSocketAddress (m_proxyToEnbAddress, m_proxyToEnbUdpPort));
                                 std::cout<< "** PKT time = "<<TcpOptionTS::ElapsedTimeFromTsValue(pkt_time).GetNanoSeconds()<<" us"<<std::endl;

@@ -459,6 +459,11 @@ TcpHeader::CalculateHeaderLength () const
   return len >> 2;
 }
 
+void TcpHeader::UpdateHeaderLength()
+{
+  m_length = CalculateHeaderLength ();
+}
+
 bool
 TcpHeader::AppendOption (Ptr<const TcpOption> option)
 {
@@ -543,5 +548,7 @@ operator<< (std::ostream& os, TcpHeader const & tc)
   tc.Print (os);
   return os;
 }
+
+
 
 } // namespace ns3
